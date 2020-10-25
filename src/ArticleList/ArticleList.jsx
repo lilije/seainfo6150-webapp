@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleListItem from '../ArticleListItem/ArticleListItem';
+import styles from "./ArticleList.module.css";
 
 const ArticleList = (props) => {
 
@@ -8,7 +9,7 @@ const ArticleList = (props) => {
 
     if (props.articles.length) {
         content = (
-            <ul>
+            <ul className={styles.ul}>
                 {articles.map((article, index) => {
                     return <ArticleListItem article={article} key={index}></ArticleListItem>
                 })}

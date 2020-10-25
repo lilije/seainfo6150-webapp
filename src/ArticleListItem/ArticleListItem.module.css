@@ -1,0 +1,17 @@
+.time {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.li {
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #66393a, #f7f5f5 15%);
+    border: 1px solid #e30e11;
+    border-radius: 10px;
+    padding: 0 15px 15px 15px;
+  }
+
+.h1 {
+    color: #e30e11;
+}
+  
