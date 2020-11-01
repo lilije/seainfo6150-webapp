@@ -3,7 +3,10 @@
     font-weight: bold;
 }
 
-.li {
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 15px;
     background: linear-gradient(to right, #66393a, #f7f5f5 15%);
     border: 1px solid #e30e11;

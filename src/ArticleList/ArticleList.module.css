@@ -1,5 +1,7 @@
-.ul {
+.articles {
     padding: 15px;
     background-color: #5d636b;
-    list-style-type: none;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
 }
