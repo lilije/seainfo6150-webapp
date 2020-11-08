@@ -5,3 +5,9 @@
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
 }
+
+@media (min-width: 350px) {
+    .articles {
+        background-color: black;
+    }
+}

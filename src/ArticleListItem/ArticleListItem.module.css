@@ -17,4 +17,10 @@
 .h1 {
     color: #e30e11;
 }
-  
+
+@media (min-width: 800px) {
+    .article {
+        display: flex;
+        flex-direction: row;
+    }
+}
