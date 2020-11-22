@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import ArticleTextToggleButton from "../ArticleTextToggleButton/ArticleTextToggleButton";
 import styles from "./ArticleListItem.module.css";
+import ArticleImage from "../ArticleImage/ArticleImage";
 
 const ArticleListItem = (props) => {
     const article = props.article;
@@ -25,7 +26,7 @@ const ArticleListItem = (props) => {
 
     return (
         <div className={styles.article}>
-            <h1 className={styles.h1}>{title}</h1>
+            <ArticleImage title={props.article.title} imageUrl={props.article.image._url} />
             {displayContent}
             <ArticleTextToggleButton buttonText={buttonText} onClick={onButtonClick}></ArticleTextToggleButton>
         </div>

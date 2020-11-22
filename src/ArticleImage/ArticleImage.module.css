@@ -1,0 +1,10 @@
+h1 { color: red; }
+
+@media screen and (min-width: 800px) {
+    img {
+        margin-top: 50px;
+        width: 300px;
+        border-radius: 50%;
+        border: 10px solid red;
+    }
+}
